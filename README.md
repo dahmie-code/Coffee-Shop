@@ -1,3 +1,4 @@
+![coffee_shop](https://user-images.githubusercontent.com/73973314/199586107-6db2b82d-0b92-486c-a9e7-8b32bb9dbae4.PNG)
 # Coffee Shop Full Stack
 
 ## Full Stack Nano - IAM Final Project
