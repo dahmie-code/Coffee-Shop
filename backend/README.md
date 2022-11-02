@@ -10,7 +10,7 @@ Follow instructions to install the latest version of python for your platform in
 
 #### Virtual Environment
 
-We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organized. Instructions for setting up a virtual environment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+I recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organized. Instructions for setting up a virtual environment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 #### PIP Dependencies
 
@@ -26,7 +26,7 @@ This will install all of the required packages we selected within the `requireme
 
 - [Flask](http://flask.pocoo.org/) is a lightweight backend microservices framework. Flask is required to handle requests and responses.
 
-- [SQLAlchemy](https://www.sqlalchemy.org/) and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) are libraries to handle the lightweight sqlite database. Since we want you to focus on auth, we handle the heavy lift for you in `./src/database/models.py`. We recommend skimming this code first so you know how to interface with the Drink model.
+- [SQLAlchemy](https://www.sqlalchemy.org/) and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) are libraries to handle the lightweight sqlite database. Since we want you to focus on auth, I handled the heavy lift in `./src/database/models.py`. I recommend skimming this code first so you know how to interface with the Drink model.
 
 - [jose](https://python-jose.readthedocs.io/en/latest/) JavaScript Object Signing and Encryption for JWTs. Useful for encoding, decoding, and verifying JWTS.
 
@@ -47,8 +47,6 @@ flask run --reload
 ```
 
 The `--reload` flag will detect file changes and restart the server automatically.
-
-## Tasks
 
 ### Setup Auth0
 
@@ -77,11 +75,11 @@ The `--reload` flag will detect file changes and restart the server automaticall
    - Import the postman collection `./starter_code/backend/udacity-fsnd-udaspicelatte.postman_collection.json`
    - Right-clicking the collection folder for barista and manager, navigate to the authorization tab, and including the JWT in the token field (you should have noted these JWTs).
    - Run the collection and correct any errors.
-   - Export the collection overwriting the one we've included so that we have your proper JWTs during review!
+   - Export the collection overwriting the one I've included so that we have your proper JWTs during review!
 
 ### Implement The Server
 
-There are `@TODO` comments throughout the `./backend/src`. We recommend tackling the files in order and from top to bottom:
+I recommend tackling the files in order and from top to bottom:
 
 1. `./src/auth/auth.py`
 2. `./src/api.py`
